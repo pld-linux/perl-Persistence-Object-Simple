@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Persistence
 %define	pnam	Object-Persistence
-Summary:	Persistence::Object::Simple - Object Persistence with Data::Dumper
+Summary:	Persistence::Object::Simple - object persistence with Data::Dumper
 Summary(pl):	Persistence::Object::Simple - trwa³e obiekty z u¿yciem Data::Dumper
 Name:		perl-Persistence-Object-Simple
 Version:	0.92
