@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Persistence
-%define	pnam	Object-Persistence
+%define		pdir	Persistence
+%define		pnam	Object-Persistence
 Summary:	Persistence::Object::Simple - object persistence with Data::Dumper
 Summary(pl):	Persistence::Object::Simple - trwa³e obiekty z u¿yciem Data::Dumper
 Name:		perl-Persistence-Object-Simple
