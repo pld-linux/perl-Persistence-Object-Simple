@@ -6,7 +6,7 @@
 %define		pdir	Persistence
 %define		pnam	Object-Persistence
 Summary:	Persistence::Object::Simple - object persistence with Data::Dumper
-Summary(pl):	Persistence::Object::Simple - trwa³e obiekty z u¿yciem Data::Dumper
+Summary(pl.UTF-8):   Persistence::Object::Simple - trwaÅ‚e obiekty z uÅ¼yciem Data::Dumper
 Name:		perl-Persistence-Object-Simple
 Version:	0.92
 Release:	1
@@ -26,12 +26,12 @@ objects. Object definitions are stored as stringified Perl data
 structures, generated with Data::Dumper, that are amenable to manual
 editing and external processing from outside the class interface.
 
-%description -l pl
-Persistence::Object::Simple daje funkcjonalno¶æ przechowywania dla
-swoich obiektów. Definicje obiektów s± przechowywane jako
-przekszta³cone na ³añcuchy struktury danych Perla, wygenerowane przy
-pomocy modu³u Data::Dumper, bêd±ce odpowiedzialnymi za rêczn± edycjê
-i zewnêtrzne przetwarzanie na zewn±trz interfejsu klas.
+%description -l pl.UTF-8
+Persistence::Object::Simple daje funkcjonalnoÅ›Ä‡ przechowywania dla
+swoich obiektÃ³w. Definicje obiektÃ³w sÄ… przechowywane jako
+przeksztaÅ‚cone na Å‚aÅ„cuchy struktury danych Perla, wygenerowane przy
+pomocy moduÅ‚u Data::Dumper, bÄ™dÄ…ce odpowiedzialnymi za rÄ™cznÄ… edycjÄ™
+i zewnÄ™trzne przetwarzanie na zewnÄ…trz interfejsu klas.
 
 %prep
 %setup -q -n %{pnam}-%{version}
