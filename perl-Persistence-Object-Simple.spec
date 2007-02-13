@@ -6,7 +6,7 @@
 %define		pdir	Persistence
 %define		pnam	Object-Persistence
 Summary:	Persistence::Object::Simple - object persistence with Data::Dumper
-Summary(pl.UTF-8):   Persistence::Object::Simple - trwałe obiekty z użyciem Data::Dumper
+Summary(pl.UTF-8):	Persistence::Object::Simple - trwałe obiekty z użyciem Data::Dumper
 Name:		perl-Persistence-Object-Simple
 Version:	0.92
 Release:	1
