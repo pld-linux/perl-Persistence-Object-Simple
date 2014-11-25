@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Persistence
 %define		pnam	Object-Persistence
+%include	/usr/lib/rpm/macros.perl
 Summary:	Persistence::Object::Simple - object persistence with Data::Dumper
 Summary(pl.UTF-8):	Persistence::Object::Simple - trwałe obiekty z użyciem Data::Dumper
 Name:		perl-Persistence-Object-Simple
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	72638cb6931360ce65fb653e9b6ef6b0
+URL:		http://search.cpan.org/dist/Persistence-Object-Persistence/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -30,8 +31,8 @@ editing and external processing from outside the class interface.
 Persistence::Object::Simple daje funkcjonalność przechowywania dla
 swoich obiektów. Definicje obiektów są przechowywane jako
 przekształcone na łańcuchy struktury danych Perla, wygenerowane przy
-pomocy modułu Data::Dumper, będące odpowiedzialnymi za ręczną edycję
-i zewnętrzne przetwarzanie na zewnątrz interfejsu klas.
+pomocy modułu Data::Dumper, będące odpowiedzialnymi za ręczną edycję i
+zewnętrzne przetwarzanie na zewnątrz interfejsu klas.
 
 %prep
 %setup -q -n %{pnam}-%{version}
